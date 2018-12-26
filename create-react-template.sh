@@ -31,7 +31,7 @@ echo "SCRIPTPATH $SCRIPTPATH $0"
 shopt -s dotglob
 
 # copy all files to dest dir except for this script and generated files
-rsync -az --stats --exclude 'create-react-template.sh' $SCRIPTPATH/ $DEST_DIR/
+rsync -az --stats --exclude '.git' --exclude 'create-react-template.sh' $SCRIPTPATH/ $DEST_DIR/
 
 
 # Update Project name
