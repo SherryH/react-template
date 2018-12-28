@@ -5,7 +5,7 @@ This repo contains the following basic setup to start a React project. CSS loade
 - Eslint (Airbnb style)
 - Jest
 
-# Useage
+# Usage
 
 ## Setup the script
 
