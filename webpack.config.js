@@ -18,5 +18,13 @@ module.exports = {
       },
     ],
   },
+  optimization: {
+    minimize: true,
+    minimizer: [
+      new UglifyJsPlugin(),
+    ],
+    usedExports: true,
+    sideEffects: true,
+  },
   plugins: [htmlPlugin],
 };
