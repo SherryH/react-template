@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # bash ./create-react-template.sh ../test1 test-project "TEST HTML"
 
 #  $0= Absolute path to this script, e.g. /home/user/bin/foo.sh
